@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#principal{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+#principal h1{
+    color: #e50914;
+    padding: 10px 10px;
+}
+
+#principal .inicio{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: center;
+}
+
+
+#principal .inicio h1{
+    position: relative;
+    left: -20%;
+    color: white;
+}
+
+
+#email{
+    width: 90vw;
+    height: 5vh;
+    margin: 5px ;
+    padding: 0 10px;
+    background-color: #333;
+    border-radius: 4px;
+    color: white;
+}
+
+#password{
+    width: 90vw;
+    height: 5vh;
+    margin: 5px ;
+    padding: 0 10px;
+    background-color: #333;
+    border-radius: 4px;
+    color: white;
+}
+
+#sesion{
+    border-style: none;
+    background-color: #e50914;
+    width: 90vw;
+    height: 5vh;
+    margin: 5px;
+    padding: 0 10px;
+    color: white;
+}
+
+.ayuda{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 10px;
+}
+
+#check{
+    position: relative;
+    left: 3%;
+}
+
+#principal .ayuda a{
+    margin-right: 3%;
+}
+
+#principal .inicio-facebook{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 22px;
+}
+
+#principal .inicio-facebook img{ 
+    width: 4%;
+}
+
+#principal .inicio-facebook p{
+    color: gray;
+    font-size: 70%;
+    padding-left: 10px;
+}
+
+#principal .inicio-info{
+    margin: 10px 10px;
+    margin-bottom: 30%;
+}
+
+#principal .inicio-info p{
+    color: gray;
+}
+
+#principal .inicio-info p:first-child{
+    font-size: 80%;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+#principal .inicio-info .color-suscribete{
+    color: white;
+}
+
+#principal .inicio-info p{
+    font-size: 75%;
+    margin: 10px;
+}
+
+#principal .inicio-info button{
+    background: none;
+    border: none;
+}
+
+#principal .inicio-info .color-masInfo{
+    color: #0071eb;
+    font-size: 75%;
+}
+
+footer{
+    background-color: black;
+    color: gray;
+}
+
+footer p{
+    padding: 10px 10px;
+}
+
+footer .secciones{
+    display: flex;
+    justify-content: flex-start;
+}
+
+footer .secciones .izquierda{
+    font-size: small;
+    padding: 10px 10px;
+}
+
+footer .secciones .derecha{
+    font-size: small;
+    padding: 10px 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+footer .idiomas{
+    padding-bottom: 20%;
+}
+
+footer .idiomas #idioma{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    text-transform: none;
+    padding: 0.25rem 0.25rem;
+    font-weight: 400px;
+    font-size: .875rem;
+    margin: 10px 10px;
+}

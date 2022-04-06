@@ -1,0 +1,540 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)
+    )
+    ,url(/img/netflix.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.sesion{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content:space-between;
+}
+
+.sesion nav{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.sesion a{
+    background-color: #e50914;
+    border: 1px solid red;
+    border-radius: .25rem;
+    padding: 0.25rem 0.25rem;
+    font-weight: 400px;
+    font-size: .875rem;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 10px 10px;
+}
+
+#option{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    text-transform: none;
+    padding: 0.25rem 0.25rem;
+    font-weight: 400px;
+    font-size: .875rem;
+    margin: 10px 10px;
+}
+
+.sesion h1{
+    font-size: 20px;
+    color: #e50914;
+    margin: 10px 10px;
+    font-weight: 400px;
+    font-size: .875rem;
+    padding: 0.25rem 0.25rem;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+}
+
+.email h1{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 10px;
+}
+
+.email h2{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 10px;
+}
+
+.email h3{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 10px;
+}
+
+#Email{
+    padding: 10px 10px;
+    height: 48px;
+    width: 95%;
+    margin: 0 10px;
+    align-content: center;
+}
+
+.email button{
+    background-color: #e50914;
+    border-style: none;
+    padding: 5px 5px;
+    margin: 10px;
+    margin-bottom: 10%;
+    color: white;
+}
+
+#disfruta-TV{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#disfruta-TV h1{
+    color: white;
+    text-align: center;
+    padding: 0px 10px;
+    padding-top: 30px;
+}
+
+#disfruta-TV h2{
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 15px;
+}
+
+#disfruta-TV .img-tv img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 40vh;
+}
+
+#disfruta-TV .img-tv {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: center center;
+    margin-bottom: 40px;
+}
+
+#disfruta-TV .video-pelicula{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-width: 500px;
+}
+
+#disfruta-TV .video-pelicula video{
+    position: absolute;
+    width: 55%;
+    top: -281.5px;
+    left: 117px;
+}
+
+#Descarga-series{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+#Descarga-series .titulos h1{
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+#Descarga-series .titulos h2{
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+#Descarga-series .img-cel{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15%;
+}
+
+#Descarga-series .img-cel .container {
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    background-size: cover;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin: 370px 130px;
+    background-color: black;
+    min-width: 370px;
+}
+
+#Descarga-series .img-cel .container .img-portada{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#Descarga-series .img-cel .container .img-portada img{
+    height: 50px;
+    width: 25px;
+    margin: 10px 10px;
+}
+
+#Descarga-series .img-cel .container .descargando{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#Descarga-series .img-cel .container .descargando .strange{
+    color: white;
+}
+
+#Descarga-series .img-cel .container .descargando .color-descargando{
+    color: #0071eb;
+}
+
+#Descarga-series .img-cel .container .download{
+    position: relative;
+    left: 100px;
+}
+
+#dusfruta{
+    display: flex;
+    flex-direction: column;
+}
+
+#disfruta .titulos{
+    background-color: black;
+}
+
+#disfruta .titulos h1{
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+#disfruta .titulos h2{
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+#disfruta .compu .img-compu{
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: black;
+}
+
+#disfruta .compu .img-compu img{
+    width: 100%;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 40vh;
+}
+
+#disfruta .compu .video{
+   position: relative;
+   width: 100%;
+   height: 100%;
+   min-width: 370px;
+}
+
+#disfruta .compu .video video{
+    position: absolute;
+    width: 60%;
+    top: -320px;
+    left: 100px;
+    
+}
+
+#Crea-perfiles{
+    display: flex;
+    flex-direction: column;
+}
+
+#Crea-perfiles .titulos-perfiles {
+    background-color: black;
+}
+
+#Crea-perfiles .titulos-perfiles h1{
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+#Crea-perfiles .titulos-perfiles h2{
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+#Crea-perfiles .img-perfiles{
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: black;
+}
+
+#Crea-perfiles .img-perfiles img{
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+#preguntas-frecuentes{
+    display: flex;
+    flex-direction: column;
+}
+
+#preguntas-frecuentes .preguntas-fre{
+    background-color: black;
+}
+
+#preguntas-frecuentes .preguntas-fre h1{
+    text-align: center;
+    color: white;
+    padding: 10px 10px;
+}
+
+#preguntas-frecuentes .preguntas-fre button{
+    background-color: rgb(48, 48, 48);
+    border: none;
+    margin: 10px 0px;
+    color: white;
+    display: block;
+    text-align: left;
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#preguntas-frecuentes .preguntas-fre h3{
+    text-align: center;
+    color: white;
+    padding: 10px 10px;
+}
+
+#preguntas-frecuentes .preguntas-fre form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#preguntas-frecuentes .preguntas-fre form input{
+    margin: 10px 10px;
+    padding: 10px;
+    width: 95vw;
+}
+
+#preguntas-frecuentes .preguntas-fre form button{
+    width: 30vw;
+    height: 5vh;
+    background-color: #e50914;
+    margin: 0px 170px;
+    margin-bottom: 50px;
+    display: block;
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+}
+
+footer p{
+    font-size: small;
+    color: white;
+    padding: 10px 10px;
+}
+
+footer .final{
+    display: flex;
+    flex-direction: row;
+}
+
+footer .Izquierda{
+    font-size: small;
+    color: white;
+    padding: 10px 10px;
+}
+
+footer .Centro{
+    font-size: small;
+    color: white;
+    padding: 10px 10px;
+}
+
+footer .Derecha{
+    font-size: small;
+    color: white;
+    padding: 10px 10px;
+}
+
+footer .idiomas #idioma{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    text-transform: none;
+    padding: 0.25rem 0.25rem;
+    font-weight: 400px;
+    font-size: .875rem;
+    margin: 10px 10px;
+}
+
+@media (min-width: 559px){
+    header .sesion h1{
+        font-size: 50px;
+    }
+
+    header .sesion a{
+        background-color: #e50914;
+        border: 1px solid red;
+        border-radius: .25rem;
+        font-weight: 400px;
+        font-size: 1rem;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+        height: 2.5rem;
+        margin: 25px 10px;
+        padding: 8px;
+    }
+
+    #option{
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        text-transform: none;
+        padding: 0.400rem 0.400rem;
+        font-weight: 400px;
+        font-size: .875rem;
+        height: 2.5rem;
+        margin: 25px 10px;
+    }
+
+    .email h1{
+        font-size: xx-large;
+    }
+
+    .email h2{
+        font-size: x-large;
+    }
+
+    .email h3{
+        font-size: arge;
+    }
+
+    .email form{
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #Email{
+        width: 30%;
+        height: 20%;
+    }
+    
+    .email button{
+        width: 10%;
+    }
+
+    #disfruta-TV .video-pelicula{
+        position: relative;
+        max-width: 550px;
+        left: -5px;
+    }
+    
+    #disfruta-TV .video-pelicula video{
+        position: absolute;
+        left: 135px;
+        top: -280px;
+        max-width: 290px;
+    }
+
+    #Descarga-series .img-cel .container {
+        position: absolute;
+        width: 60%;
+        height: 10%;
+        display: flex;
+        flex-direction:row;
+        justify-content:flex-start;
+        background-size: cover;
+        border: 2px solid grey;
+        border-radius: 10px;
+        margin: 370px 130px;
+        background-color: black;
+        max-width: 370px;
+    }
+
+    #Descarga-series .img-cel .container .descargando{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    #Descarga-series .img-cel .container .descargando .strange{
+        color: white;
+    }
+    
+    #Descarga-series .img-cel .container .descargando .color-descargando{
+        color: #0071eb;
+    }
+
+    #disfruta .compu .video{
+        position: relative;
+        max-width: 700px;
+        left: 15px;
+    }
+    
+    #disfruta .compu .video video{
+        position: absolute;
+        max-width: 700px;
+        left: 103px;
+        top: -455px;
+    }
+    
+    #preguntas-frecuentes .preguntas-fre ul{
+        margin: 0 100px;
+    }
+    
+}
